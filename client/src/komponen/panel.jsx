@@ -12,12 +12,11 @@ function Panel() {
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <h1 className="mb-5 text-5xl font-bold">Hai Semua..</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+        mulailah membuat impian rumah anda menjadi nyata dengan diawali perencanaan yang terstrukture dan tercatat bersama kami yang akan membimbingnya
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn btn-primary">Mulai Sekarang</button>
     </div>
   </div>
 </div>
