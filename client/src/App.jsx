@@ -1,8 +1,11 @@
-import { Page } from "./page";
+
+import { PLogin } from "./PLogin";
+import PUser from "./Puser";
+
 
 function App() {
   return (
-    <Page/>
+    <PUser/>
   );
 }
 
