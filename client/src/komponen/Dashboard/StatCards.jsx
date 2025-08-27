@@ -1,15 +1,16 @@
 import React from "react";
+import { CardProject } from "./CardProject";
 
 export const StatCards = () => {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
+      <CardProject/>
+      <CardProject/>
+      <CardProject/>
     </>
   );
 };
 
 const Card = () => {
-  return <div className="p-4 bg-black col-span-4"></div>;
+  return <div className="p-4  col-span-4"></div>;
 };

@@ -30,6 +30,7 @@ export const TimeLine = () => {
       office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed
       in a beige case with integrated carrying handle; it came with a keyboard and single-button
       mouse.
+      <p><button className="btn btn-soft btn-primary">Detail</button></p>
     </div>
     <hr />
   </li>

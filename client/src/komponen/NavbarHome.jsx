@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nabar() {
+function NavbarHome() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -31,4 +31,4 @@ function Nabar() {
   );
 }
 
-export default Nabar;
+export default NavbarHome;

@@ -1,7 +1,7 @@
 import React from 'react'
-import { HeaderUser } from './komponen/User/HeaderUser'
-import { TopHeader } from './komponen/User/TopHeader'
-import { TimeLine } from './komponen/User/TimeLine'
+import { HeaderUser } from '../komponen/User/HeaderUser'
+import { TopHeader } from '../komponen/User/TopHeader'
+import { TimeLine } from '../komponen/User/TimeLine'
 
 function PUser() {
   return (
