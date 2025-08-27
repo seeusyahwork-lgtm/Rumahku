@@ -1,6 +1,7 @@
 import React from 'react'
 import { AkunToggle } from './AkunToggle'
 import { RouteSelect } from './RouteSelect'
+import { Plan } from './Plan'
 
 const Sidebar
   = () => {
@@ -13,6 +14,8 @@ const Sidebar
           <RouteSelect/>
         </div>
         {/* membuat : rencanan toggle  */}
+
+        <Plan/>
       </div>
     )
   }

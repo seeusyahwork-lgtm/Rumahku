@@ -8,5 +8,6 @@ export const Page = () => {
     <Sidebar/>
     <Dasboard/>
     </main>
+    
   )
 }
