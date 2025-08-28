@@ -46,7 +46,7 @@ export const TopHeader = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-center">
+        <div className="navbar-center m-auto">
           <img
             src="../../../assets/flogo/rumahku-kontruksi-high-resolution-logo-transparent.png"
             className="w-40"
