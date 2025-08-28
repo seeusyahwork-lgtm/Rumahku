@@ -38,10 +38,10 @@ export const TopHeader = () => {
                 <a>Homepage</a>
               </li>
               <li>
-                <a>Portfolio</a>
+                <a>Timeline</a>
               </li>
               <li>
-                <a>About</a>
+                <a>footer</a>
               </li>
             </ul>
           </div>

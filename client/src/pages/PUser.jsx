@@ -2,6 +2,7 @@ import React from 'react'
 import { HeaderUser } from '../komponen/User/HeaderUser'
 import { TopHeader } from '../komponen/User/TopHeader'
 import { TimeLine } from '../komponen/User/TimeLine'
+import Footer from '../komponen/footer'
 
 function PUser() {
   return (
@@ -9,6 +10,7 @@ function PUser() {
         <TopHeader/>
         <HeaderUser/>
         <TimeLine/>
+        <Footer/>
     </div>
   )
 }

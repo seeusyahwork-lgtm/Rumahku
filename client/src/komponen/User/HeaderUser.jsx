@@ -12,11 +12,11 @@ export const HeaderUser = () => {
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Haloo.. </h1>
+      <h1 className="mb-5 text-5xl font-bold  text-teal-300">Haloo.. </h1>
       <p className="mb-5">
         berikut ini adalah laporan dan progres rumah yang anda sedang bangun.
       </p>
-      <button className="btn bg-[#189fa8] ">Selengkapnya</button>
+      <button className="btn btn-accent text-white ">Selengkapnya</button>
     </div>
   </div>
   <div className="divider"></div>
