@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiDetail } from "react-icons/bi";
 import { FaPlus } from "react-icons/fa6";
-import CFormProyek from './CFormProyek';
+import CIProyek from './Finput/CIProyek';
 
 export const ListProject = () => {
     return (
@@ -30,7 +30,7 @@ export const ListProject = () => {
                                     {/* if there is a button in form, it will close the modal */}
                                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                 </form>
-                                <CFormProyek />
+                                <CIProyek />
                             </div>
                         </dialog>
                     </div>

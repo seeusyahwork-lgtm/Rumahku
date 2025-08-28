@@ -4,6 +4,10 @@ import { FaClipboardUser } from "react-icons/fa6";
 import { MdConstruction } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
 import { MdDataset } from "react-icons/md";
+import { FaBarsProgress } from "react-icons/fa6";import { Link } from 'react-router-dom'
+
+
+
 
 function RouteSelect() {
   return (
@@ -14,22 +18,34 @@ function RouteSelect() {
             <summary> <MdConstruction />Proyek</summary>
             <ul>
               <li>
-                <a> <MdDataset />Data Proyek</a>
+                <Link to={'/PAdmin'} className="font-medium text-teal-600 hover:underline dark:text-teal-500">
+                  <MdDataset />Data Proyek
+                </Link>
+
               </li>
               <li>
-                <a>Submenu 2</a>
+                <Link to={'/DListProyek'} className="font-medium text-teal-600 hover:underline dark:text-teal-500">
+                  <FaBarsProgress />Progres Proyek
+                </Link>
               </li>
             </ul>
           </details>
         </li>
         <li>
-          <a>  <FaClipboardUser />Petugas</a>
+          <Link to={'/DPengawas'} className="font-medium text-teal-600 hover:underline dark:text-teal-500">
+            <FaClipboardUser />Petugas
+          </Link>
+
         </li>
         <li>
-          <a><FaUserTie /> Mandor</a>
+          <Link to={'/DMandor'} className="font-medium text-teal-600 hover:underline dark:text-teal-500">
+            <FaUserTie /> Mandor
+          </Link>
         </li>
         <li>
-          <a><FaRegUser />Konsumen</a>
+          <Link to={'/DKonsumen'} className="font-medium text-teal-600 hover:underline dark:text-teal-500">
+            <FaRegUser />Konsumen
+          </Link>
         </li>
       </ul>
     </div>

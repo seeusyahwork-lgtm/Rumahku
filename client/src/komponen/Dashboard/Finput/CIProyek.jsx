@@ -1,6 +1,6 @@
 import React from "react";
 
-const CFormProyek = () => {
+const CIProyek = () => {
   return (
     <div>
       <form className="px-2 md:px-2 max-w-3xl mx-auto ml-10 py-6">
@@ -231,4 +231,4 @@ const CFormProyek = () => {
   );
 };
 
-export default CFormProyek;
+export default CIProyek;
