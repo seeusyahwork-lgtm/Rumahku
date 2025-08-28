@@ -1,42 +1,39 @@
-import React, { useState } from "react";
-import { FiHome, FiUsers, FiPaperclip } from "react-icons/fi";
+import React from 'react'
+import { FaUserTie } from "react-icons/fa6";
+import { FaClipboardUser } from "react-icons/fa6";
+import { MdConstruction } from "react-icons/md";
+import { FaRegUser } from "react-icons/fa";
+import { MdDataset } from "react-icons/md";
 
-export const RouteSelect = () => {
-  const [active, setActive] = useState("Dashboard");
-
-  const routes = [
-    { Icon: FiHome, title: "Dashboard" },
-    { Icon: FiUsers, title: "Team" },
-    { Icon: FiPaperclip, title: "Invoice" },
-  ];
-
+function RouteSelect() {
   return (
-    <div className="space-y-1">
-      {routes.map((route) => (
-        <Route
-          key={route.title}
-          Icon={route.Icon}
-          title={route.title}
-          seleted={active === route.title}
-          onClick={() => setActive(route.title)}
-        />
-      ))}
+    <div>
+      <ul className="menu bg-base-200 rounded-box w-56">
+        <li>
+          <details open>
+            <summary> <MdConstruction />Proyek</summary>
+            <ul>
+              <li>
+                <a> <MdDataset />Data Proyek</a>
+              </li>
+              <li>
+                <a>Submenu 2</a>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <a>  <FaClipboardUser />Petugas</a>
+        </li>
+        <li>
+          <a><FaUserTie /> Mandor</a>
+        </li>
+        <li>
+          <a><FaRegUser />Konsumen</a>
+        </li>
+      </ul>
     </div>
-  );
-};
+  )
+}
 
-const Route = ({ seleted, Icon, title, onClick }) => {
-  return (
-    <button
-      onClick={onClick}
-      className={`flex items-center space-x-2 px-3 py-2 rounded-md w-full text-left ${
-        seleted
-          ? "bg-blue-100 text-black font-semibold"
-          : "text-gray-600 hover:bg-gray-100"
-      }`}
-    >
-      <Icon className="w-5 h-5" />
-      <span>{title}</span>
-    </button>
-  );
-};
+export default RouteSelect

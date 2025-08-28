@@ -1,6 +1,6 @@
 import React from 'react'
 import { AkunToggle } from './AkunToggle'
-import { RouteSelect } from './RouteSelect'
+import RouteSelect  from './RouteSelect'
 
 
 const Sidebar

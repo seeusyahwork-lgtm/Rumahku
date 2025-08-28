@@ -3,7 +3,7 @@ import React from "react";
 const CFormProyek = () => {
   return (
     <div>
-      <form className="px-4 md:px-8 max-w-3xl mx-auto ml-10 py-12">
+      <form className="px-2 md:px-2 max-w-3xl mx-auto ml-10 py-6">
         <div className="space-y-12">
           <div className="border-b border-gray-900/10 pb-12">
             <h2 className="text-base font-semibold leading-7 text-gray-900">
@@ -16,7 +16,7 @@ const CFormProyek = () => {
             </p>
             <div className="divider mt-8">Proyek</div>
             <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-              <div className="sm:col-span-4">
+              <div className="sm:col-span-6">
                 <label
                   htmlFor="username"
                   className="block text-sm font-medium leading-6 text-gray-900"
@@ -25,7 +25,7 @@ const CFormProyek = () => {
                 </label>
                 <div className="">
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                    <span className="flex select-none items-center pl-3 text-gray-500 sm:text-sm">
+                    <span className="flex select-none items-center pl-4 text-gray-500 sm:text-sm">
                       Proyek/ -
                     </span>
                     <input
@@ -33,7 +33,7 @@ const CFormProyek = () => {
                       name="username"
                       id="username"
                       autoComplete="username"
-                      className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                      className="block flex-1 border-0 bg-transparent py-1.5 pl-2 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                       placeholder="Rumah type 36 - Melati"
                     />
                   </div>
@@ -132,7 +132,7 @@ const CFormProyek = () => {
                         htmlFor="file-upload"
                         className="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500"
                       >
-                        <span>Upload File Rancanngan Anggaran Biaya</span>
+                        <span>Upload File RAB</span>
                         <input
                           id="file-upload"
                           name="file-upload"
@@ -148,12 +148,53 @@ const CFormProyek = () => {
                   </div>
                 </div>
               </div>
-              <div className="sm:col-span-3">
+              <div className="sm:col-span-6">
                 <label
                   htmlFor="country"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
                   Pengawas Proyek
+                </label>
+                <div className="mt-2">
+                  <select
+                    id="country"
+                    name="country"
+                    autoComplete="country-name"
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
+                  >
+                    <option>Cecep Suparman</option>
+                    <option>Cahya Saripudin</option>
+                    <option>Wahid Sugianto</option>
+                  </select>
+
+                </div>
+              </div>
+              <div className="sm:col-span-6">
+                <label
+                  htmlFor="country"
+                  className="block text-sm font-medium leading-6 text-gray-900">
+                  Mandor
+                </label>
+                <div className="mt-2">
+                  <select
+                    id="country"
+                    name="country"
+                    autoComplete="country-name"
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
+                  >
+                    <option>Cecep Suparman</option>
+                    <option>Cahya Saripudin</option>
+                    <option>Wahid Sugianto</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="sm:col-span-6">
+                <label
+                  htmlFor="country"
+                  className="block text-sm font-medium leading-6 text-gray-900"
+                >
+                  Konsumen
                 </label>
                 <div className="mt-2">
                   <select
