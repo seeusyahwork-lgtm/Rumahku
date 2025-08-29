@@ -1,5 +1,13 @@
 # Rumahku
 
+-Backend
+untuk backend masuk belum di intalasi 
+penginialisai sudah selesai 
+
+frondend
+-90% sudah selesai tinggal 
+tambahan tampilan intu dihalaman pengawas dan mandor 
+serta detail tentang update perminggu 
 
 //
 # Core Library
