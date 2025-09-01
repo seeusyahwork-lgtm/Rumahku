@@ -1,8 +1,6 @@
 import React from 'react'
 import { TopBar } from './TopBar'
-// import { Grid } from './Grid'
-// import CFormProyek from './CFormProyek'
-import { ListProject } from './ListProyek'
+
 import CTMandor from './Table/CTMandor'
 
 const DasboardMandor = () => {

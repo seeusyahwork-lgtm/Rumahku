@@ -1,9 +1,9 @@
 import React from 'react'
 import { BiDetail } from "react-icons/bi";
 import { FaPlus } from "react-icons/fa6";
-import CIProyek from './Finput/CIProyek';
+import CIProyek from '../Finput/CIProyek';
 
-export const ListProject = () => {
+export const CTListProject = () => {
     return (
         <>
             <>
