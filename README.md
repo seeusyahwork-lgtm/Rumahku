@@ -57,3 +57,6 @@ client@0.0.0 D:\00.WJR_Syah Putra N\Workspace\Rumahku\client
 $ npm list react-icons
 client@0.0.0 D:\00.WJR_Syah Putra N\Workspace\Rumahku\client       
 └── react-icons@5.5.0
+
+$ nodemon -v
+3.1.10
